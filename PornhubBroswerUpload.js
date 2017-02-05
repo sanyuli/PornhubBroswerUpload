@@ -108,16 +108,3 @@ setTimeout(function() {
         simulate(document.getElementById("uploaderSaveButton_"+i), "click");
     }
 }, 1000);
-
-//Privacy Settings
-document.getElementById('dropDownTitle_1_0').innerHTML = "Private";
-//Choose a Production
-document.getElementById('dropDownTitle_2_0').innerHTML = "Homemade";
-
-//Category click
-simulate(document.getElementById("categoryId_93_0"), "click");//feet
-simulate(document.getElementById("categoryId_18_0"), "click");//fetish
-simulate(document.getElementById("categoryId_37_0"), "click");//teen
-
-//Save button
-simulate(document.getElementById("uploaderSaveButton_0"), "click");
